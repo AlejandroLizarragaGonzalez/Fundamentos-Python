@@ -39,4 +39,62 @@ if __name__ == "__main__":
     nuevoTema("variables")
     variable1 = 10
     _variable2 = 34.2
-    Variable3 = 
+    Variable3 = 654654
+
+    nuevoTema("Enteros")
+    w  = 105
+    x = 2074074073847821
+    y = -345
+    z = 0b0011011
+    h = 0xffa
+    #Entero en hexadecimal
+    
+    print(w, type(w))
+    print(x, type(x))
+    print(y, type(y))
+    print(z, type(z))
+    print(h, type(h))
+
+    nuevoTema("Flotantes")
+    x = 1297.5
+    print(x, type(x))
+    y = 0.052829
+    print(y, type(y))
+
+    nuevoTema("Numeros complejos")
+    x = -46j
+    y = 12 + 45j
+    z = 2j
+    print(x, type(x))
+    print(y, type(y))
+    print(z, type(z))
+    
+    nuevoTema("Listas")
+    a = [10, 20.5, "Python list"]
+    print(a)
+    a = ["listas2", 45, 16.3j]
+    print(a)
+
+    nuevoTema("Tuplas")
+    t = (25, "tupla", 5.6)
+    print(t)
+    print(t[1])
+    #las tuplas son constantes tanto el dato como el apuntador, por lo tanto no se puede sobreescribir en sus arreglos.
+
+    nuevoTema("Conjuntos")
+    c = {50, 20, 10, 4, 8, 50}
+    print(c)
+
+    nuevoTema("Diccionarios")
+    d = {1:"Valor1", "2":45}
+    print(d, type(d))
+
+    nuevoTema("Cadenas")
+    cadena1 = "Cadena entre comillas dobles"
+    print(cadena1)
+    cadena2 = 'Cadena entre comillas sencillas'
+    print(cadena2)
+    cadena3 = '''Cadena de
+    varias
+    lineas'''
+    print(cadena3)
